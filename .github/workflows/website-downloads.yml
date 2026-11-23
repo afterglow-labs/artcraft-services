@@ -1,15 +1,7 @@
 name: Website download selection
 
 on:
-  pull_request:
-    paths:
-      - 'frontend/apps/artcraft-website-next/**'
-      - '.github/workflows/website-downloads.yml'
-  push:
-    branches: [main]
-    paths:
-      - 'frontend/apps/artcraft-website-next/**'
-      - '.github/workflows/website-downloads.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read

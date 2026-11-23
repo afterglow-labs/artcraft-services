@@ -1,9 +1,6 @@
 name: Update Craft Release Versions
 
 on:
-  schedule:
-    # Hourly, on the hour
-    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:

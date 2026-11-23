@@ -1,8 +1,6 @@
 name: Trigger Cloudflare deploy
 
 on:
-  push:
-    branches: [main, cloudflare-dev]
   workflow_dispatch:
 
 permissions: {}
